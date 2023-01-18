@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Bishal Prasad - The Portfolio</title>
+        <link rel="stylesheet" href = "style.css">
+        <script src="https://kit.fontawesome.com/59e409823f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id = "header">
+            <div class="container">
+                <nav>
+                    <img src = "images/logo3.png" class="logo">
+                    <ul id = "sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#profiles">Profiles</a></li>
+                        <li><a href="#my-projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>App Developer</p>
+                    <h1>Hi, I'm <span>Bishal</span> <br>Prasad from India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------about--------------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptate quaerat blanditiis est dolore debitis ullam dolores architecto, consequatur cumque omnis vero explicabo libero autem sunt nisi dolor aperiam aut?</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Native Android</span><br>Developing Native Android Apps</li>
+                                <li><span>Flutter Development</span><br>Developing Flutter Apps</li>
+                                <li><span>DSA</span><br>Data Structures & Algorithms</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>To Do App</span><br>An MVMM based Android App which allows users to list and manage their To-Do's</li>
+                                <li><span>News App</span><br>A News app (much like Google Discover) which fetches the real time news from newsapi.org and allows users to read them inside the app</li>
+                                <li><span>Brain Teaser App</span><br>An App for the teasing your brain's mathematical computation power. Successfully depoloyed in Google Play Store</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - 2024 | Electrical Engineering</span><br>Haldia Institute of Technology<br>9.45 (4th - Sem)</li>
+                                <li><span>2018 - 2020 | Intermediate with PCM & CS</span><br>Kendriya Vidyalaya I.O.C Haldia<br>94.2%</li>
+                                <li><span>2017 - 2018 | Matriculation</span><br>Kendriya Vidyalaya I.O.C Haldia<br>91.6%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------portfolio------------------------ -->
+        <div id="profiles">
+            <div class="container">
+                <h1 class="sub-title">My Online Profiles</h1>
+                <div class="profile-lists">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>LeetCode</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae a facilis ratione atque, expedita laudantium ut nemo asperiores quis. Earum?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-github"></i>
+                        <h2>GitHub</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae a facilis ratione atque, expedita laudantium ut nemo asperiores quis. Earum?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-google-play"></i>
+                        <h2>Google Play</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae a facilis ratione atque, expedita laudantium ut nemo asperiores quis. Earum?
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------projects----------
+         -->
+        <div id="my-projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="project-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>To-Do App</h3>
+                            <p>The app allows Users to manage and create their daily To-Do's</p>
+                            <a href="https://github.com/bishalprasad321/ToDo-Task-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>News App</h3>
+                            <p>The app fetches the latest news from NewsApi.org and shows it just like the Google Discover</p>
+                            <a href="https://github.com/bishalprasad321/Flashes-News-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Brain Teaser App</h3>
+                            <p>The app allows Users to compute their Brain's Mathematical computation power by playing simple mathematical game.</p>
+                            <a href="https://github.com/bishalprasad321/Brain-Teaser-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/bishalprasad321" target="_blank" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ------------Contact------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>bishalprasad321@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91-98518-23443</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/bishal-prasad/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/bishal_722/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/bishal_722" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://github.com/bishalprasad321/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="yourmail@domain.com" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn btn2" type="submit">Submit</button>
+                        </form>
+                        <span id="msg">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Bishal. 2023 <br>Made with <i class="fa-solid fa-heart"></i> by Bishal Prasad</p>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents")
+    
+            function opentab(tabname){
+                for (tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxWaFWDEz8yesP0tvP6ErOWl7NIU0LuU13I2YNWTwmyyh5wTMju7yVY3m6PMJCzWPxZg/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
