@@ -195,7 +195,7 @@ nav ul li a:hover::after{
 .profile-lists div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -386,15 +386,6 @@ nav .fa-solid{
         background-image: url(images/phone-banner.png);
     }
     #about{
-        background-image: url(images/mobile-about-background.gif);
-    }
-    #profiles{
-        background-image: url(images/mobile-about-background.gif);
-    }
-    /* #my-projects{
-        background-image: url(images/mobile-about-background.gif);
-    } */
-    #contact{
         background-image: url(images/mobile-about-background.gif);
     }
     .header-text{
