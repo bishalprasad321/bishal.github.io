@@ -83,6 +83,11 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
+    width: 100%;
+    background-image: url(images/about-background.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .row{
@@ -159,6 +164,11 @@ nav ul li a:hover::after{
 /* --------------------profiles--------------------- */
 #profiles{
     padding: 30px 0;
+    width: 100%;
+    background-image: url(images/about-background.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .profile-lists{
     display: grid;
@@ -201,8 +211,13 @@ nav ul li a:hover::after{
 }
 
 /* --------------projects----------- */
-#projects{
+#my-projects{
     padding: 50px;
+    width: 100%;
+    background-image: url(images/about-background.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .project-list{
@@ -287,6 +302,13 @@ nav ul li a:hover::after{
 }
 
 /* ------------contact------------- */
+#contact{
+    width: 100%;
+    background-image: url(images/about-background.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 .contact-left{
     flex-basis: 35%;
@@ -379,6 +401,18 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phone-banner.png);
+    }
+    #about{
+        background-image: url(images/mobile-about-background.gif);
+    }
+    #profiles{
+        background-image: url(images/mobile-about-background.gif);
+    }
+    #my-projects{
+        background-image: url(images/mobile-about-background.gif);
+    }
+    #contact{
+        background-image: url(images/mobile-about-background.gif);
     }
     .header-text{
         margin-top: 140%;
