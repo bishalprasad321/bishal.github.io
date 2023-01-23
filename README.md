@@ -1,6 +1,6 @@
 # Bishal Prasad's Portfolio Website
 
-<a href="https://bishal-prasad.netlify.app/" target="_blank">Live</a> 
+<a href="https://bishalprasad321.github.io/bishal.github.io/" target="_blank">Live</a> (Hosted on GitHub Pages)
 
 ## ScreenShot
 
