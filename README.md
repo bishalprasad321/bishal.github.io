@@ -18,7 +18,7 @@
 
 |       Projects Page     |
 :-------------------------:
-![webpage4](https://user-images.githubusercontent.com/70791507/214074705-4e308cb3-c505-4056-b7e7-98b8c9b4a517.png)
+![image](https://github.com/bishalprasad321/bishal.github.io/assets/70791507/5241e088-587b-424d-a930-39b0234385a4)
 
 |       Contact Page     |
 :-------------------------:
